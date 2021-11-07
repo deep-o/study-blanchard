@@ -866,6 +866,7 @@ a {
 }
 
 .menu--showed {
+  display: block;
   left: 0;
   transition: left 0.3s ease-in;
 }
@@ -3148,10 +3149,6 @@ body.is-popup-open {
   .burger {
     height: 16px;
     width: 20px;
-  }
-
-  .menu--showed {
-    display: block;
   }
 
   .mobile-menu__container {
