@@ -3295,6 +3295,7 @@ body.is-popup-open {
   }
 
   .galery-swiper {
+    align-self: center;
     margin-bottom: 0;
     padding-top: 36px;
     height: 473px;
@@ -3459,6 +3460,8 @@ body.is-popup-open {
   }
 
   .event__container {
+    display: flex;
+    flex-direction: column;
     padding-top: 49px;
     padding-bottom: 48px;
   }
@@ -3469,15 +3472,16 @@ body.is-popup-open {
   }
 
   .event-swiper {
+    align-self: center;
     display: block;
     height: 715px;
-    max-width: 500px;
+    max-width: 320px;
     overflow: hidden;
   }
 
   .event-swiper .swiper-wrapper {
     display: flex;
-    height: 683px;
+    height: 715px;
   }
 
   .event__article {

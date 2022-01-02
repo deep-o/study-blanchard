@@ -1,7 +1,6 @@
 
 window.addEventListener('DOMContentLoaded', function () {
 
-  window.onresize = function(){window.location.reload();}
   // dropdown ******************************************************************************
 
   document.querySelectorAll('.art-menu__btn').forEach(function(el) {
